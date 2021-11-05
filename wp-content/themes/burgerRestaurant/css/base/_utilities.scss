@@ -1,0 +1,162 @@
+.accent {
+	color: $secondary;
+}
+
+// UTILITY CLASSES
+.container {
+	margin: 0 auto;
+	max-width: 1300px;
+	width: 90%;
+}
+
+.flex {
+	display: flex;
+}
+.flex-dir-col {
+	flex-direction: column;
+}
+
+.flex-aic {
+	align-items: center;
+}
+
+.flex-jcc {
+	justify-content: center;
+}
+
+.flex-jcsb {
+	justify-content: space-between;
+}
+
+.font-sm {
+	font-size: 0.75rem;
+}
+
+.font-md {
+	font-size: 1rem;
+}
+
+.font-mdlg {
+	font-size: 1.2rem;
+}
+
+.font-lg {
+	font-size: 1.5rem;
+}
+
+.font-xl {
+	font-size: 2rem;
+}
+
+.font-xxl {
+	font-size: 3rem;
+}
+
+.font-xxxl {
+	font-size: 6rem;
+}
+
+.gutters {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.m-1 {
+	margin: 0.75rem;
+}
+
+.ml-1 {
+	margin-left: 0.75rem;
+}
+
+.ml-2 {
+	margin-left: 1.5rem;
+}
+
+.mr-3 {
+	margin-right: 3rem;
+}
+
+.mt-1 {
+	margin-top: 0.75rem;
+}
+
+.mt-2 {
+	margin-top: 1.5rem;
+}
+
+.mt-3 {
+	margin-top: 3rem;
+}
+
+.mt-4 {
+	margin-top: 4.5rem;
+}
+
+.mt-5 {
+	margin-top: 6rem;
+}
+
+.mb-2 {
+	margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+	margin-bottom: 3rem;
+}
+
+.mb-4 {
+	margin-bottom: 4.5rem;
+}
+
+.rounded {
+	border-radius: 0.25rem;
+}
+
+.section-break {
+	border: 1px solid #c9c9c9;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.text-gray {
+	color: #808080;
+}
+
+.text-dark {
+	color: $heading-color;
+}
+
+.text-primary {
+	color: $primary;
+}
+
+.text-secondary {
+	color: $secondary;
+}
+
+// @media only screen and (min-width: 601px) {
+// 	.container {
+// 		width: 83%;
+// 	}
+// }
+
+// @media only screen and (min-width: 993px) {
+// 	.container {
+// 		width: 75%;
+// 	}
+// }
+
+@media only screen and (min-width: 800px) {
+	.m6 {
+		width: 50%;
+	}
+}

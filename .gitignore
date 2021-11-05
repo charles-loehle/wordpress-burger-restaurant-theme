@@ -1,0 +1,6 @@
+node_modules/
+ai1wm-backups/
+wp-content/plugins/all-in-one-wp-migration/
+wp-content/plugins/advanced-custom-fields/
+
+wp-config.php

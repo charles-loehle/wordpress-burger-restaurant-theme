@@ -1,0 +1,81 @@
+/* BASE BUTTON STYLES ================*/
+.btn {
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	// text-transform: uppercase;
+	padding: 0.63rem 1.68rem;
+	font-size: 0.8rem;
+	line-height: 1.5;
+	transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out,
+		border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+	letter-spacing: 0.2rem;
+}
+
+.btn:hover {
+	text-decoration: none;
+}
+
+.btn:focus {
+	outline: 0;
+}
+
+/* WHITE */
+.btn-outline-white {
+	color: #fff;
+	border: 2px solid #fff;
+	width: 210px;
+	margin: 1.5rem 1rem 0 0;
+}
+
+.btn-outline-white:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+/* ACCENT =====================*/
+.btn-secondary {
+	color: #fff;
+	background-color: $secondary;
+	border-color: $secondary;
+}
+
+.btn-secondary:hover {
+	color: #fff;
+	background-color: $secondary-accent-hover-bg;
+	border-color: $secondary-accent-hover-border;
+}
+
+.btn-secondary:focus {
+	color: #fff;
+	background-color: $secondary-accent-hover-bg;
+	border-color: $secondary-accent-hover-border;
+	box-shadow: $secondary-accent-focus-box-shadow;
+}
+
+.btn-tertiary {
+	color: #fff;
+	background-color: $tertiary;
+	border-color: $tertiary;
+}
+
+.btn-tertiary:hover {
+	color: #fff;
+	background-color: $tertiary-accent-hover-bg;
+	border-color: $tertiary-accent-hover-border;
+}
+
+.btn-tertiary:focus {
+	color: #fff;
+	background-color: $tertiary-accent-hover-bg;
+	border-color: $tertiary-accent-hover-border;
+	box-shadow: $tertiary-accent-focus-box-shadow;
+}

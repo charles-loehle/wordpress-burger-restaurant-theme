@@ -1,0 +1,16 @@
+{
+	"name": "burgerrestaurant",
+	"version": "1.0.0",
+	"description": "wordpress theme for small restaurants",
+	"main": "index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"author": "Charles Loehle",
+	"license": "ISC",
+	"dependencies": {
+		"@wordpress/scripts": "^19.0.0",
+		"normalize.css": "^8.0.1"
+	}
+}
